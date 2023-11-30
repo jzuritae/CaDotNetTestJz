@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{72A75E9F-ECD1-4EDD-B3FB-5C4ECB61B5BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{22EBD671-C72E-45F3-B188-F2C1423C9E7D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CaTestJz.Presentation.WebUI", "src\CaTestJz.Presentation.WebUI\CaTestJz.Presentation.WebUI.csproj", "{52F093D4-4EF5-47A6-9823-CE896015D263}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CaTestJz.Application", "src\CaTestJz.Application\CaTestJz.Application.csproj", "{F9361D4D-C101-49FE-974A-ABE71FCEA04D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CaTestJz.Domain", "src\CaTestJz.Domain\CaTestJz.Domain.csproj", "{266C16A8-41F0-4688-AA03-2D7297ACA5C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CaTestJz.Infrastructure", "src\CaTestJz.Infrastructure\CaTestJz.Infrastructure.csproj", "{4DF7DDF6-FAE0-4EF2-A6CD-24FA76989995}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52F093D4-4EF5-47A6-9823-CE896015D263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52F093D4-4EF5-47A6-9823-CE896015D263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52F093D4-4EF5-47A6-9823-CE896015D263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52F093D4-4EF5-47A6-9823-CE896015D263}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9361D4D-C101-49FE-974A-ABE71FCEA04D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9361D4D-C101-49FE-974A-ABE71FCEA04D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9361D4D-C101-49FE-974A-ABE71FCEA04D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9361D4D-C101-49FE-974A-ABE71FCEA04D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{266C16A8-41F0-4688-AA03-2D7297ACA5C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{266C16A8-41F0-4688-AA03-2D7297ACA5C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{266C16A8-41F0-4688-AA03-2D7297ACA5C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{266C16A8-41F0-4688-AA03-2D7297ACA5C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DF7DDF6-FAE0-4EF2-A6CD-24FA76989995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DF7DDF6-FAE0-4EF2-A6CD-24FA76989995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DF7DDF6-FAE0-4EF2-A6CD-24FA76989995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DF7DDF6-FAE0-4EF2-A6CD-24FA76989995}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{52F093D4-4EF5-47A6-9823-CE896015D263} = {72A75E9F-ECD1-4EDD-B3FB-5C4ECB61B5BD}
+		{F9361D4D-C101-49FE-974A-ABE71FCEA04D} = {72A75E9F-ECD1-4EDD-B3FB-5C4ECB61B5BD}
+		{266C16A8-41F0-4688-AA03-2D7297ACA5C7} = {72A75E9F-ECD1-4EDD-B3FB-5C4ECB61B5BD}
+		{4DF7DDF6-FAE0-4EF2-A6CD-24FA76989995} = {72A75E9F-ECD1-4EDD-B3FB-5C4ECB61B5BD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60D0C826-6B9A-48B3-948C-A28D180E1900}
+	EndGlobalSection
+EndGlobal
