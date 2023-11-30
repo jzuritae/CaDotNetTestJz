@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -22,7 +23,8 @@ namespace CaTestJz.Infrastructure.Persistence
             var result = new AuthenticationResult();
             try
             {
-                string ConnectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=D:\\repos\\BallastLane\\CATest\\src\\CaTestJz.Infrastructure\\Database\\CaTestJzDatabase.mdf;Integrated Security=True";
+                string directory = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+                string ConnectionString = $"Server=(localdb)\\mssqllocaldb;AttachDbFileName={directory}\\Database\\CaTestJzDatabase.mdf;Trusted_Connection=True;MultipleActiveResultSets=true";
                 string queryString = "SELECT Id, FirstName, LastName FROM [dbo].[User] where Email = @emailParam";
                 
 
